@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pt
+runs/
+dataset/
+outputs/
+models/
+_visdrone_tmp/
+*.zip
+*.tmp
