@@ -42,10 +42,8 @@ EXCLUDE_PATTERNS = {
     "__pycache__", ".git", "_visdrone_tmp",
     "*.pyc", "*.pyo", "*.tmp",
     "runs",          # eğitim çıktıları (büyük)
-    "dataset",       # dataset görselleri (büyük)
-    "outputs",       # video çıktıları
-    "models",        # eğitilmiş model ağırlıkları
-    "yolov8n.pt",    # büyük model dosyası
+    "dataset",       # dataset görselleri (büyük — binlerce görüntü)
+    "yolov8n.pt",    # eski model dosyası
 }
 
 
