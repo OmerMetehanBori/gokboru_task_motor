@@ -1,0 +1,22 @@
+# Gökbörü Drone Veri Seti Yapılandırması
+# YOLOv8 eğitimi için train.py tarafından kullanılır.
+#
+# Veri seti dizin yapısı:
+#   dataset/
+#     images/
+#       train/
+#       val/
+#     labels/
+#       train/
+#       val/
+
+path: ./dataset
+train: images/train
+val: images/val
+
+nc: 4
+names:
+  0: Tasit
+  1: Insan
+  2: UAP
+  3: UAI
